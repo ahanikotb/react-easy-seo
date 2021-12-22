@@ -27,7 +27,7 @@ key     value
 route   {metadataname : metadatacontent}
 
 example:{"/":{"title":"react-easy-seo","description":"react-easy-seo is the best way to handle react seo"}}
-
+<br/>
 which is converted to =>
 
 `

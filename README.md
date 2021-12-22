@@ -41,7 +41,7 @@ another cool feature is having an article metadataname in the route object
 
 {"/":{"article":"react-easy-seo is the best way to handle react seo"}}
 this is converted to => 
-<p>react-easy-seo is the best way to handle react seo</p>
+`<p>react-easy-seo is the best way to handle react seo</p>`
 and is added to the root div so its replaced as soon as your app loads but can really help with seo.
 
 

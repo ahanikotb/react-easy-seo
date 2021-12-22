@@ -1,6 +1,6 @@
 # react-easy-seo
 
-# a npm package that provides a  creative solution for react seo without ssr or preload relies on react-router-dom and 
+# a npm package that provides a  creative solution for react seo without ssr or preload relies on react-router-dom and  react-helmet
 
 # Installation
 npm install -g react-easy-seo

@@ -1,0 +1,31 @@
+{
+  "/": {
+    "title": "The Swiss Army Knife of tools and Calculators - Tooltoolito Home Page",
+    "description": "Explore our new selection of free online tools and calulators  Check out our new gif maker and token price calculator.",
+    "article": "TOOLS AND STUFF FOR YOU"
+  },
+  "/about/": {
+    "title": "About Tooltoolito",
+    "description": "Founded in 2021, Tooltoolito aims to become the best"
+  },
+  "/tools/": {
+    "title": "Browse All Tools",
+    "description": "Free Online Tools and Calculators for different situation, including  beginner topics and niche topics such as Finance - Tooltoolito"
+  },
+  "/tools/Cryptocurrency/": {
+    "title": "Cryptocurrency Tools",
+    "description": "Cryptocurrency tools and Calculators to help you with your cryptocurrency projects."
+  },
+  "/tools/Images/": {
+    "title": "Images",
+    "description": "Image editing tools online for free."
+  },
+  "/tools/Images/gif-maker/": {
+    "title": "Free Online GIF Maker",
+    "description": "This Free Online GIF maker allows you to instantly create animated GIFs using seperate images."
+  },
+  "/tools/Cryptocurrency/eth-unit-converter": {
+    "title": "Free online Ethereum unit converter",
+    "description": "Easily convert between ETH,WEI and GWEI with this easy to use calculator."
+  }
+}

@@ -1,6 +1,6 @@
 # react-easy-seo
 
-# a npm package that provides a  creative solution for react seo without ssr or preload relies on react-router-dom and  react-helmet
+# a npm package that provides a  creative solution for react seo without ssr or preload relies on react-router-dom and react-helmet
 
 # Installation
 npm install -g react-easy-seo
@@ -70,4 +70,5 @@ another cool feature is having an article metadataname in the route object
 this is converted to => 
 `<p>react-easy-seo is the best way to handle react seo</p>`
 and is added to the root div so its replaced as soon as your app loads but can really help with seo.
+
 

@@ -71,6 +71,3 @@ this is converted to =>
 `<p>react-easy-seo is the best way to handle react seo</p>`
 and is added to the root div so its replaced as soon as your app loads but can really help with seo.
 
-
-
-*** the titles added are not removed once the react app is loaded thats why it renders other seo tools useless

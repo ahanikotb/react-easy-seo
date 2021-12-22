@@ -9,7 +9,7 @@ npm install -g react-easy-seo
 1- uninstall any react seo tool like react-helmet if you are using one  ***
 
 2- create a sitemetadata.json in project root folder
-![sitemetadata json sample]()
+![sitemetadata json sample](https://raw.githubusercontent.com/ahanikotb/react-easy-seo/main/samplejson.png)
 
 3- add "postbuild":"react-easy-seo" in the scripts section in your package.json .  
 "scripts":{

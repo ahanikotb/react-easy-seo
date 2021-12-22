@@ -1,21 +1,48 @@
 # react-easy-seo
 
-# a npm package that provides a  creative solution for react seo without ssr or preload
+# a npm package that provides a  creative solution for react seo without ssr or preload relies on react-router-dom and 
 
 # Installation
 npm install -g react-easy-seo
 
-# Setup
-1- uninstall any react seo tool like react-helmet if you are using one  ***
 
-2- create a sitemetadata.json in project root folder
+# Setup
+
+
+1- create a sitemetadata.json in project root/src folder
 ![sitemetadata json sample](https://raw.githubusercontent.com/ahanikotb/react-easy-seo/main/samplejson.png)
 
-3- add "postbuild":"react-easy-seo" in the scripts section in your package.json .  
+2- add "postbuild":"react-easy-seo" in the scripts section in your package.json .  
 "scripts":{
     .....   
     "postbuild":"react-easy-seo"   
   }.   
+  
+3-Add ReactHelmet to App.js
+   - install react-helmet and react-router-dom
+   - Use the sitemetada.json  as a source for dynamic metadata as well
+    
+   - import useLocation
+        `import {useLocation} from 'react-router-dom'`
+
+   - get location and make sure it has '/' at the end
+     
+     `var currentLocation = location.pathname
+
+       if (currentLocation[currentLocation.length -1 ] !== "/"){
+        currentLocation = currentLocation.concat("/")
+                      }`
+     
+   - add this in your Component
+    `   <Helmet>
+            <meta name='title' content={siteMetadata[currentLocation]['title'] }/> 
+            <meta name="description" content={siteMetadata[currentLocation]['description']}/> 
+            <title> {siteMetadata[currentLocation]['title']}</title>
+        </Helmet>`
+
+     
+  
+ 
 4-run your react build normally and the output will be in './output'
 
 # How it Works 

@@ -11,11 +11,11 @@ npm install -g react-easy-seo
 2- create a sitemetadata.json in project root folder
 ![sitemetadata json sample]()
 
-3- add "postbuild":"react-easy-seo" in the scripts section in your package.json .
+3- add "postbuild":"react-easy-seo" in the scripts section in your package.json .  
 "scripts":{
-    .....
-    "postbuild":"react-easy-seo"
-}
+    .....   
+    "postbuild":"react-easy-seo"   
+  }.   
 4-run your react build normally and the output will be in './output'
 
 # How it Works 
@@ -26,13 +26,15 @@ the json is structured as follows:
 key     value 
 route   {metadataname : metadatacontent}
 
-examaple:{"/":{"title":"react-easy-seo","description":"react-easy-seo is the best way to handle react seo"}}
+example:{"/":{"title":"react-easy-seo","description":"react-easy-seo is the best way to handle react seo"}}
 
 which is converted to =>
+
+`
 "<meta name="title" content="react-easy-seo"></meta>"
 "<meta name="description" content="react-easy-seo is the best way to handle react seo"></meta>"
 "<title>react-easy-seo</title>"
-
+`
 
 so for each route you can have as many metadata as you want.
 another cool feature is having an article metadataname in the route object 

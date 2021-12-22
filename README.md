@@ -1,10 +1,12 @@
+# react-easy-seo
+
 # a npm package that provides a  creative solution for react seo without ssr or preload
 
 # Installation
 npm install -g react-easy-seo
 
 # Setup
-1- uninstall any react seo tool like react-helmet if you are using one 
+1- uninstall any react seo tool like react-helmet if you are using one  ***
 
 2- create a sitemetadata.json in project root folder
 ![sitemetadata json sample]()
@@ -42,4 +44,4 @@ and is added to the root div so its replaced as soon as your app loads but can r
 
 
 
-notes 
+*** the titles added are not removed once the react app is loaded thats why it renders other seo tools useless
